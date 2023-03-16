@@ -8,7 +8,6 @@
     <style>
         table,th,td {
             border-style: solid;
-            width: 100%;
         }
     </style>
 </head>
