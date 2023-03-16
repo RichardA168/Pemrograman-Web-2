@@ -5,4 +5,5 @@
     $tp = 7.5; //tinggi prisma
     //rumus prisma alas segitiga
     echo ($a * $t)/2 * $tp;
+    echo " m3";
 ?>
