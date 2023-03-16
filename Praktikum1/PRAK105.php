@@ -14,26 +14,26 @@
 </head>
 <body>
     <?php
-    $hp[1] = "Samsung Galaxy S22";
-    $hp[2] = "Samsung Galaxy S22+";
-    $hp[3] = "Samsung Galaxy A03";
-    $hp[4] = "Samsung Galaxy Xcover 5";
+    $hp['P1'] = "Samsung Galaxy S22";
+    $hp['P2'] = "Samsung Galaxy S22+";
+    $hp['P3'] = "Samsung Galaxy A03";
+    $hp['P4'] = "Samsung Galaxy Xcover 5";
     ?>
     <table>
         <tr>
             <th style= "background-color: #FF0000; padding: 10px"><?php echo "Daftar Smartphone Samsung"; ?></th>
         </tr>
         <tr>
-            <td><?= $hp[1]; ?></td>
+            <td><?= $hp['P1']; ?></td>
         </tr>
         <tr>
-            <td><?= $hp[2]; ?></td>
+            <td><?= $hp['P2']; ?></td>
         </tr>
         <tr>
-            <td><?= $hp[3]; ?></td>
+            <td><?= $hp['P3']; ?></td>
         </tr>
         <tr>
-            <td><?= $hp[4]; ?></td>
+            <td><?= $hp['P4']; ?></td>
         </tr>
     </table>
 </body>
