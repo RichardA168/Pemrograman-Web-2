@@ -25,7 +25,7 @@
         echo "Jumlah Bintang : $bintang "; ?>
         <br><br>
         <?php for( $i = 0; $i < $bintang; $i++ ) {
-             echo "<img style='width:20px;' src='$link'>";
+             echo "<img style='width:60px;' src='$link'>";
         } ?>
         <form action="PRAK304.php" method="post">
             <input type="text" name="input" value="<?= $bintang ?>" hidden>
