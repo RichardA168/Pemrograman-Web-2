@@ -19,7 +19,7 @@
             if($angkaAwal%2==0): $color = '#008000';
             else: $color = '#FF0000';
             endif;
-            echo "<h2 style=\"color: $color\">Peserta ke-$angkaAwal<br></span>";
+            echo "<h2 style=\"color: $color\">Peserta ke-$angkaAwal<br></h2>";
             $angkaAwal++;
         }
     }
