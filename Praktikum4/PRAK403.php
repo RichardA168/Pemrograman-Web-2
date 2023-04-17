@@ -15,7 +15,7 @@
     }
     th,td{
         border-color: black;
-        padding: ;
+        padding: 7px 13px;
     }
     .Revisi{
         background-color: red;
