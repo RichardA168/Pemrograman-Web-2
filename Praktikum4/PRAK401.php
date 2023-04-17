@@ -31,7 +31,7 @@
         $i = 0;
         $j = $baris * $kolom;
 
-        if($temp_nilai == $j){
+        if($temp_nilai != $j){
             echo"<p>Jumlah nilai tidak sesuai!</p>";
         } else {
             echo "<table border=1px>";
